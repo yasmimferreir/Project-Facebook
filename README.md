@@ -6,7 +6,6 @@
 ![facebook-iphone](https://user-images.githubusercontent.com/97356148/168176872-1fee6308-4d6d-4422-8623-9c7400cd92cb.jpg)
 
 <h2>📍Resultado do projeto Facebook.
-<h2> 🚀Link da página: https://facebook-entreoucadastre-se.netlify.app/
 
 ### <h2>🛠⚙Ajustes e melhorias
 
