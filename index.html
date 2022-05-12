@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="./style.css">
+    <title>Facebook - Entre ou cadastre-se</title>
+</head>
+
+<body>
+    <div class="whole-box">
+        <div class="box">
+            <img class="logo" src="./img/facebooh-.svg" alt="facebook">
+            <h2>O facebook ajuda voce a se conectar e
+                compartilhar com as pessoas que fazem parte da sua vida.</h2>
+        </div>
+        <div>
+            <form>
+                <input type="text" placeholder="Email ou telefone">
+                <input type="password" placeholder="Senha">
+                <button class="open">Entrar</button>
+                <a href="#">Esqueceu a senha?</a>
+                <button class="btn">Criar nova conta</button>
+            </form>
+            <p><a href="#">Criar uma Página</a> para uma celebridade, banda ou empresa</p>
+        </div>
+    </div>
+    <footer>Facebook ©  <span id="year"> 2022 </span></footer>
+
+    <script>
+        const year = document.getElementById('year');
+        const actualYear = new Date();
+
+        year.innerHTML = actualYear.getFullYear();
+    </script>
+</body>
+</html>
